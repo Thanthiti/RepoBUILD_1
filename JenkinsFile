@@ -1,5 +1,5 @@
 @Library('local-lib') _ 
 
-commonPipeline {
-    projectName = "Test Parameter" 
-}
+commonPipeline (
+    projectName : "Test Parameter" 
+)

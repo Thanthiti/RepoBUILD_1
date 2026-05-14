@@ -1,5 +1,9 @@
 @Library('local-lib') _ 
 
-commonPipeline (
-    projectName : "Test Parameter" 
+backPipeline (
+    projectName : "Test Parameter back" 
+)
+
+frontPipeline (
+    projectName : "Test Parameter front" 
 )

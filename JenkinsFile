@@ -1,14 +1,5 @@
-pipeline
-{
-    agent any
-    stages
-    {
-        stage('Build')
-        {
-            steps
-            {
-                echo 'Hello World'
-            }
-        }
-    }
+@Library('local-lib') _ 
+
+commonPipeline {
+    projectName = "Test Parameter" 
 }

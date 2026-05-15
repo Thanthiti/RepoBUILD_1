@@ -1,9 +1,0 @@
-@Library('local-lib') _ 
-
-backPipeline (
-    projectName : "Test Parameter back" 
-)
-
-frontPipeline (
-    projectName : "Test Parameter front" 
-)

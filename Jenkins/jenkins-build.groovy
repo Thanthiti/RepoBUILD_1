@@ -3,7 +3,7 @@
 pipeline {
     agent any
     parameters {
-        choice(name: 'BRANCH', defaultValue: 'dev', choices: ['dev', 'deploy','release'], description: 'Branch to build')
+        choice(name: 'BRANCH', choices: 'dev\ndeploy\nrelease', description: 'Branch to build')
     }
 
     stages {
